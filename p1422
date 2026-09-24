@@ -1,0 +1,8 @@
+use=int(input())
+if use<=150:
+    cost=use*0.4463
+elif use<=400:
+    cost=150*0.4463+(use-150)*0.4663
+else:
+    cost=150*0.4463+250*0.4663+(use-400)*0.5663
+print(round(cost,1))
