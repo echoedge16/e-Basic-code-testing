@@ -1,0 +1,4 @@
+in_num=input().split()
+out_num=in_num[:-1:]
+out_num.reverse()
+print(' '.join(out_num))
