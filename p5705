@@ -1,0 +1,2 @@
+n_str=input()
+print(float(n_str[::-1]))
